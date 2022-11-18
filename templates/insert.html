@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+<div class="card">
+    <form action="/insert" method="post">
+            <input name="title" placeholder="Title" type="text" required class="input">
+            <input name="item" placeholder="Item of your card" type="text" required class="input">
+            <div class="footer">
+                <button class="btn" type="submit">Sumbit Your Own Card To The Database</button>
+            </div>
+    </form>
+</div>
+{% endblock %}

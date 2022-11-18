@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="card">
+    <h1 class="title">{{ title }}</h1>
+    <p class="description">
+        {{ item }}
+    </p>
+
+    <form action="/game" method="post">
+        <div class="footer">
+            <button class="btn" type="submit">Prev</button>
+            <button class="btn" type="submit">Next</button>
+
+        </div>
+    </form>
+</div>
+{% endblock %}

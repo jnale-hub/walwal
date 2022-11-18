@@ -1,0 +1,80 @@
+/* $base-background: #00CC99; */
+body {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+#name {
+    font-family: 'Luckiest Guy';
+    font-size: 70px;
+}
+
+.brand {
+    font-family: 'Bitter';
+    font-weight: bold;
+    font-size: 22px;
+    ext-shadow: 1px 1px 1px white;
+}
+
+.container {
+    text-align: center;
+    padding: 65px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.card {
+    background: #FFFFFF;
+    font-family: 'Bitter';
+    max-width: 350px;
+    margin: 100px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding: 48px;
+    text-align: center;
+}
+
+.title {
+    margin: 0 0 12px;
+    font-family: 'Luckiest Guy';
+    font-size: 26px;
+    transition: 0.5s ease;
+    text-shadow: .5px .5px black;
+}
+
+.description {
+    margin: 0 0 48px;
+    font-family: 'Bitter';
+    display: none;
+}
+
+.title:hover+.description {
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 -12px -12px;
+}
+
+.input {
+    margin: 0 0 5px;
+}
+
+
+img {
+    max-width: 270px;
+}
